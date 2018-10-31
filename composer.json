@@ -1,0 +1,17 @@
+{
+    "name": "kevensuu/ip2city",
+    "description": "ip to city",
+    "authors": [
+        {
+            "name": "kevensuu",
+            "email": "kevensuu@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Ip2city\\": "src/"
+        }
+    }
+}
