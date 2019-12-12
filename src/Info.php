@@ -10,7 +10,7 @@ class Info
 
         try
         {
-            $db = $db = new Reader(__DIR__.'/ipiptest.ipdb');
+            $db = $db = new Reader(__DIR__.'/ipip.ipdb');
             return $db->find($ip);
         }
         catch (Exception $e)
